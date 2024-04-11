@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/eb7-fitness/static/css/main.4d32225a.css",
+    "main.js": "/eb7-fitness/static/js/main.e9919734.js",
+    "static/media/hero-1.jpg": "/eb7-fitness/static/media/hero-1.2f4458415bb97d86bfb3.jpg",
+    "index.html": "/eb7-fitness/index.html",
+    "main.4d32225a.css.map": "/eb7-fitness/static/css/main.4d32225a.css.map",
+    "main.e9919734.js.map": "/eb7-fitness/static/js/main.e9919734.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d32225a.css",
+    "static/js/main.e9919734.js"
+  ]
+}
