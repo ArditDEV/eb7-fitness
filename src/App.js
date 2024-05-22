@@ -9,7 +9,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1>Ardit Bakalli</h1>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ofertat" element={<Ofertat />} />
