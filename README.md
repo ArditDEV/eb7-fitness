@@ -1,6 +1,6 @@
 Project Title: EB7-FITNESS
 
-Project Description: This is a Web for a fitness based in Gjakova.
+Project Description: "This is a website for a fitness based in Gjakova."
 
 Built With: JavaScript - CSS
 
