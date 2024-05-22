@@ -1,0 +1,78 @@
+/* ********************** */
+/* Below 944 (Phones ) */
+/* ********************** */
+
+@media (max-width: 59em) {
+  .orari-punes {
+    font-size: 1.2rem;
+  }
+  .info-text {
+    font-size: 1.1rem;
+  }
+}
+/* ********************** */
+/* Below 832 (Phones ) */
+/* ********************** */
+
+@media (max-width: 52em) {
+  .photo-texttt {
+    font-size: 2.2rem;
+  }
+  .line-ofertaa {
+    top: 13.5rem;
+  }
+  .center-container {
+    grid-template-columns: 1fr;
+    padding-bottom: 6.4rem;
+  }
+  .vertical-line {
+    height: 3px;
+    width: 35rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .info-text {
+    padding-right: 8rem;
+    padding-left: 8rem;
+  }
+}
+/* ********************** */
+/* Below 704 (Phones ) */
+/* ********************** */
+
+@media (max-width: 44em) {
+  .vertical-line {
+    height: 3px;
+    width: 25rem;
+  }
+  .line-ofertaa {
+    top: 15.5rem;
+  }
+}
+
+/* Below 544px ( Phones )*/
+/* ********************** */
+
+@media (max-width: 34em) {
+  .info-text {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .photo-texttt {
+    font-size: 1.9rem;
+  }
+  .line-ofertaa {
+    top: 14.5rem;
+  }
+  .vertical-line {
+    width: 22rem;
+  }
+}
+/*-- White Space : 
+       SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+    
+     */
+
+/* -- FONT SIZE SYSTEM: (px) */
+/* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */

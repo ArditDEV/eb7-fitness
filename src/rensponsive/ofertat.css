@@ -1,0 +1,89 @@
+/*  */
+
+/* ********************** */
+/* Below 1216 ( compatible with Landscape mode Tablets */
+/* ********************** */
+
+@media (max-width: 76em) {
+  .plan-namee {
+    font-size: 1.8rem;
+  }
+  .plan-pricee {
+    font-size: 5.2rem;
+  }
+  .motivation-containerr {
+    row-gap: 1.2rem;
+  }
+}
+
+/* ********************** */
+/* Below 1104 ( compatible with Landscape mode Tablets other types */
+/* ********************** */
+
+@media (max-width: 69em) {
+  .grid--2-colss {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    column-gap: 3rem;
+  }
+  .grid-final {
+    padding-bottom: 6.4rem;
+  }
+}
+
+/* ********************** */
+/* Below 736 (Phones  */
+/* ********************** */
+
+@media (max-width: 46em) {
+  .grid--2-colss {
+    grid-template-columns: 1fr;
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+  .grid--footer {
+    grid-template-columns: 1fr;
+  }
+  .grid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    row-gap: 4rem;
+  }
+  .footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .footer-heading {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Below 544px ( Phones )*/
+/* ********************** */
+
+@media (max-width: 34em) {
+  .photo-textt {
+    font-size: 1.9rem;
+  }
+  .text-gender {
+    font-size: 1.6rem;
+  }
+  .line-oferta {
+    top: 12rem;
+  }
+  .grid--2-colss {
+    grid-template-columns: 1fr;
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
+/*-- White Space : 
+     SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+  
+   */
+
+/* -- FONT SIZE SYSTEM: (px) */
+/* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */

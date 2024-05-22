@@ -1,0 +1,428 @@
+/*-- White Space : 
+   SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+  -- FONT SIZE SYSTEM: (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+  --NGJYRA kryesore: #71ef2b
+
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+/* ********************** */
+/* HEADER */
+/* ********************** */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.5rem;
+  background-color: black;
+  padding: 0 3rem;
+}
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.logo {
+  height: 1.8rem;
+}
+
+/* ********************** */
+/* Navigation */
+/* ********************** */
+.btn-mobile-nav {
+  display: none;
+}
+
+.btn-mobile-nav .icon-mobile-nav-menu {
+  color: white;
+  font-size: 2rem;
+}
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  gap: 2rem;
+}
+
+.main-nav-link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+
+.main-nav-link:hover {
+  color: #71ef2b;
+  transition: all 0.3s;
+  text-decoration: underline 3px;
+}
+.main-nav-link:active {
+  color: #71ef2b;
+  /* transition: all 0.3s; */
+  text-decoration: underline 3px;
+}
+.main-nav-link.active {
+  color: #71ef2b;
+  transition: none;
+  text-decoration: underline 3px;
+
+  /* Add any other styles to indicate the active link */
+}
+/* ********************** */
+/* Hero */
+/* ********************** */
+
+.section-hero {
+  background-color: black;
+  background-image: linear-gradient(
+      to right top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(./hero-1.jpg);
+  background-position: center -152px;
+  height: 738px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  max-width: 125rem;
+  margin: 0 auto;
+}
+
+.hero {
+  max-width: 100%;
+  background-color: transparent;
+}
+
+.hero-content {
+  text-align: center;
+  display: flex;
+
+  background-color: transparent;
+  align-items: center;
+  padding-right: 10rem;
+}
+
+.hero-text {
+  background-color: transparent;
+  color: #71ef2b;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-size: 4.4rem;
+  white-space: nowrap;
+  position: relative;
+}
+
+/* ********************** */
+/* Photo */
+/* ********************** */
+
+.section-photo {
+  overflow-x: auto;
+  width: 100%; /* Ensure the section takes the full width */
+  /* position: relative; */
+}
+.photo-text {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-weight: 700;
+  padding-top: 9.6rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  position: relative;
+  padding-bottom: 5rem;
+}
+.line {
+  position: absolute;
+  top: 60rem;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 5rem; /* Adjust the width of the line as needed */
+  height: 4px; /* Adjust the thickness of the line */
+  background-color: #71ef2b;
+}
+
+.photo-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  max-width: 125rem;
+  margin: 0 auto;
+}
+
+.parent {
+  overflow: hidden;
+  position: relative;
+  width: calc(30% - 1.6rem); /* Set width for each image */
+  height: 200px; /* Set a fixed height for all images */
+}
+
+.child {
+  width: 100%; /* Set width of child to 100% */
+  height: 100%; /* Set height of child to 100% */
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Add transition for smooth zoom effect */
+}
+
+.parent:hover .child {
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+/* ********************** */
+/* Pricing */
+/* ********************** */
+
+.section-pricing {
+  /* padding: 9.6rem 0; */
+}
+.line-2 {
+  position: absolute;
+  top: 90.5rem;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 5rem; /* Adjust the width of the line as needed */
+  height: 4px; /* Adjust the thickness of the line */
+  background-color: #71ef2b;
+}
+
+.pricing-plan {
+  border-radius: 11px;
+  overflow: hidden;
+
+  width: 75%;
+}
+
+.pricing-plan--starter {
+  justify-self: end;
+  border: 2px solid #71ef2b;
+  padding-bottom: 3rem;
+}
+
+.pricing-plan--complete {
+  border: 2px solid #ff0075;
+  padding-bottom: 3rem;
+}
+
+.motivation-container {
+  display: flex;
+  align-items: center; /* Align items at the center of the container */
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 3rem;
+  row-gap: 1.6rem;
+}
+
+.motivation-text {
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.plan-header {
+  text-align: center;
+}
+
+.plan-name {
+  color: black;
+  font-weight: 600;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+  background-color: #71ef2b;
+}
+.plan-nameee {
+  color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+  background-color: #ff0075;
+}
+
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 9.6rem;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.grid:last-child {
+  margin-bottom: 0;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.butoni-oferta {
+  position: relative; /* Change position to relative */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding-bottom: 12.8rem;
+  margin-top: 1.6rem; /* Adjust top margin to position relative to the header */
+}
+.btn {
+  color: white;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1.5px solid white;
+  padding: 0.6rem 1.1rem;
+  font-size: 1.1rem;
+  transition: all 0.3s ease; /* Transition all properties */
+}
+
+.btn:hover {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-weight: 500;
+  border: none;
+  border: 1.5px solid black;
+  color: black !important; /* Add !important */
+  background-color: rgb(240, 237, 237) !important; /* Add !important */
+  transform: scale(1.09) !important; /* Add !important */
+}
+
+/* ********************** */
+/* Footer */
+/* ********************** */
+.hr {
+  border: none;
+  height: 1px;
+  background-color: rgb(87, 87, 87);
+}
+
+.footer {
+  padding: 8rem 3rem;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  color: white;
+  line-height: 1.6;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  color: rgb(182, 182, 182);
+}
+.contacts {
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.address {
+  margin-bottom: 1.2rem;
+  color: white;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.2rem;
+
+  color: white;
+  transition: all 0.3s;
+}
+
+.footer-link:active,
+.footer-link:hover {
+  color: white;
+}
+
+.footer-link-1:link,
+.footer-link-1:visited {
+  text-decoration: none;
+  font-size: 1.2rem;
+
+  color: white;
+  transition: all 0.3s;
+}
+
+.footer-link-1:active,
+.footer-link-1:hover {
+  color: white;
+}
+.fix {
+  display: flex;
+  align-items: center;
+}
+.footer-link {
+  display: flex;
+  align-items: center;
+}

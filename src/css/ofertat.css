@@ -1,0 +1,142 @@
+/*-- White Space : 
+   SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+  -- FONT SIZE SYSTEM: (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+  --NGJYRA kryesore: #71ef2b
+
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+/* ********************** */
+/* Pricing */
+/* ********************** */
+
+.section-ofertat {
+  padding-top: 9.6rem;
+}
+.photo-textt {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  position: relative;
+  padding-bottom: 5rem;
+}
+.text-gender {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-weight: 700;
+  padding-top: 3rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: black;
+  background-color: #71ef2b;
+  text-align: center;
+  position: relative;
+  padding-bottom: 2rem;
+}
+.femer {
+  background-color: #ff0075;
+}
+.line-oferta {
+  top: 14rem;
+}
+
+.pricing-plann {
+  border-radius: 11px;
+  width: 100%;
+}
+
+.pricing-plan--starterr {
+  border: 2px solid #71ef2b;
+  padding: 2.4rem;
+}
+
+.pricing-plan--completee {
+  background-color: black;
+  border: 2px solid #ff0075;
+  padding: 2.4rem;
+}
+
+.plan-headerr {
+  text-align: center;
+}
+
+.plan-namee {
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+}
+
+.plan-pricee {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 1.6rem;
+}
+
+.plan-pricee span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-textt {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: white;
+}
+.motivation-containerr {
+  display: flex;
+  align-items: center; /* Align items at the center of the container */
+  flex-direction: column;
+  justify-content: center;
+
+  row-gap: 1.6rem;
+}
+
+.motivation-text {
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.gridd {
+  display: grid;
+  padding-top: 2rem;
+  justify-content: center;
+  column-gap: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  max-width: 125rem;
+  margin: 0 auto;
+}
+.gridd:last-child {
+  margin-bottom: 0;
+}
+
+.grid--2-colss {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-final {
+  padding-bottom: 12.8rem;
+}
