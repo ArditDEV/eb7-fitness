@@ -15,7 +15,7 @@ function Info() {
 
       <div className="center-container">
         <div className="orari-punes">
-          <p className="text-orari">E Hënë-E Shtune: 08:00 AM - 23:00 PM</p>
+          <p className="text-orari">E Hënë-E Shtune: 07:30 AM - 23:00 PM</p>
           <p className="text orari">E Diele: 17:00 AM - 22:00 PM </p>
         </div>
 
