@@ -32,14 +32,14 @@ function Footer() {
               <p className="fix">
                 <a
                   class="footer-link-1 footer-link "
-                  href="tel:+383-44-111-111"
+                  href="tel:+383-49-888-643"
                 >
                   <CallIcon style={{ marginRight: "8px" }} /> 044-111-111
                 </a>
               </p>
               <br />
 
-              <a class="footer-link" href="mailto:eb7gym@gmail.com">
+              <a class="footer-link" href="mailto:elvinbeqa77@gmail.com">
                 <EmailIcon style={{ marginRight: "8px" }} /> eb7@gmail.com
               </a>
             </address>
