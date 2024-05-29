@@ -26,7 +26,7 @@
 @media (max-width: 60em) {
   .cta-texttt {
     font-size: 1.6rem;
-    justify-content: center;
+    justify-content: left;
   }
   .ctaaa {
     grid-template-columns: 1fr;
