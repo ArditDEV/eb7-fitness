@@ -24,11 +24,11 @@ function Kontakt() {
                   sx={{ fontSize: "3rem" }}
                   className="ikona-kontakt"
                 />{" "}
-                eb7@gmail.com
+                elvinbeqa77@gmail.com
               </p>
               <p class="cta-texttt">
                 <CallIcon sx={{ fontSize: "3rem" }} className="ikona-kontakt" />{" "}
-                +383-44-111-111
+                +383-49-888-643
               </p>
               <p class="cta-texttt">
                 Na ndjekni:{" "}
