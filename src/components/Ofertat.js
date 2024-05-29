@@ -217,6 +217,56 @@ function Ofertat() {
               <p class="plan-textt"></p>
             </header>
           </div>
+          <div class="pricing-plann pricing-plan--starterr">
+            <header class="plan-headerr">
+              <p class="plan-namee">1X Ditë</p>
+              <p class="plan-pricee">
+                <span>€</span>5
+              </p>
+              <div className="motivation-containerr">
+                <p class="motivation-text">
+                  {" "}
+                  <CheckCircleIcon
+                    sx={{
+                      marginRight: "8px",
+                      color: "white",
+                      width: 25,
+                      height: 25,
+                      backgroundColor: "transparent",
+                    }}
+                  />
+                  Ambient Motivues
+                </p>
+                <p class="motivation-text">
+                  {" "}
+                  <CheckCircleIcon
+                    sx={{
+                      marginRight: "8px",
+                      color: "white",
+                      width: 25,
+                      height: 25,
+                      backgroundColor: "transparent",
+                    }}
+                  />
+                  Trajner profesional
+                </p>
+                <p class="motivation-text">
+                  {" "}
+                  <CheckCircleIcon
+                    sx={{
+                      marginRight: "8px",
+                      color: "white",
+                      width: 25,
+                      height: 25,
+                      backgroundColor: "transparent",
+                    }}
+                  />
+                  Paisjet më moderne
+                </p>
+              </div>
+              <p class="plan-textt"></p>
+            </header>
+          </div>
         </div>
       </section>
       <section className="section-ofertat">
@@ -377,6 +427,56 @@ function Ofertat() {
               <p class="plan-namee">1x Muaj</p>
               <p class="plan-pricee">
                 <span>€</span>25
+              </p>
+              <div className="motivation-containerr">
+                <p class="motivation-text">
+                  {" "}
+                  <CheckCircleIcon
+                    sx={{
+                      marginRight: "8px",
+                      color: "white",
+                      width: 25,
+                      height: 25,
+                      backgroundColor: "transparent",
+                    }}
+                  />
+                  Ambient Motivues
+                </p>
+                <p class="motivation-text">
+                  {" "}
+                  <CheckCircleIcon
+                    sx={{
+                      marginRight: "8px",
+                      color: "white",
+                      width: 25,
+                      height: 25,
+                      backgroundColor: "transparent",
+                    }}
+                  />
+                  Trajner profesional
+                </p>
+                <p class="motivation-text">
+                  {" "}
+                  <CheckCircleIcon
+                    sx={{
+                      marginRight: "8px",
+                      color: "white",
+                      width: 25,
+                      height: 25,
+                      backgroundColor: "transparent",
+                    }}
+                  />
+                  Paisjet më moderne
+                </p>
+              </div>
+              <p class="plan-textt"></p>
+            </header>
+          </div>
+          <div class="pricing-plann pricing-plan--completee">
+            <header class="plan-headerr">
+              <p class="plan-namee">1x Ditë</p>
+              <p class="plan-pricee">
+                <span>€</span>5
               </p>
               <div className="motivation-containerr">
                 <p class="motivation-text">
