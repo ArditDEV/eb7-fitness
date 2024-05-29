@@ -62,13 +62,13 @@
 
 .pricing-plan--starterr {
   border: 2px solid #71ef2b;
-  padding: 2.4rem;
+  padding: 1.3rem;
 }
 
 .pricing-plan--completee {
   background-color: black;
   border: 2px solid #ff0075;
-  padding: 2.4rem;
+  padding: 1.3rem;
 }
 
 .plan-headerr {
@@ -134,7 +134,7 @@
 }
 
 .grid--2-colss {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid-final {
