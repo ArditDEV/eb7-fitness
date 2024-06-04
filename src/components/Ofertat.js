@@ -472,11 +472,11 @@ function Ofertat() {
               <p class="plan-textt"></p>
             </header>
           </div>
-          <div class="pricing-plann pricing-plan--completee">
+          <div class="pricing-plann pricing-plan--completee-max">
             <header class="plan-headerr">
-              <p class="plan-namee">1x Ditë</p>
+              <p class="plan-namee-max">12x Muaj për qift</p>
               <p class="plan-pricee">
-                <span>€</span>5
+                <span>€</span>300
               </p>
               <div className="motivation-containerr">
                 <p class="motivation-text">
