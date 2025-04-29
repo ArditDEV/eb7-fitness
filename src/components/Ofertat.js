@@ -20,7 +20,7 @@ function Ofertat() {
             <header class="plan-headerr">
               <p class="plan-namee">12X Muaj</p>
               <p class="plan-pricee">
-                <span>€</span>220
+                <span>€</span>260
               </p>
               <div className="motivation-containerr">
                 <p class="motivation-text">
@@ -70,7 +70,7 @@ function Ofertat() {
             <header class="plan-headerr">
               <p class="plan-namee">6X Muaj</p>
               <p class="plan-pricee">
-                <span>€</span>120
+                <span>€</span>140
               </p>
               <div className="motivation-containerr">
                 <p class="motivation-text">
@@ -120,7 +120,7 @@ function Ofertat() {
             <header class="plan-headerr">
               <p class="plan-namee">3X Muaj</p>
               <p class="plan-pricee">
-                <span>€</span>65
+                <span>€</span>75
               </p>
 
               <div className="motivation-containerr">
@@ -171,7 +171,7 @@ function Ofertat() {
             <header class="plan-headerr">
               <p class="plan-namee">1X Muaj</p>
               <p class="plan-pricee">
-                <span>€</span>25
+                <span>€</span>30
               </p>
               <div className="motivation-containerr">
                 <p class="motivation-text">
@@ -276,7 +276,7 @@ function Ofertat() {
             <header class="plan-headerr">
               <p class="plan-namee">12x Muaj</p>
               <p class="plan-pricee">
-                <span>€</span>180
+                <span>€</span>220
               </p>
               <div className="motivation-containerr">
                 <p class="motivation-text">
@@ -326,7 +326,7 @@ function Ofertat() {
             <header class="plan-headerr">
               <p class="plan-namee">6x Muaj</p>
               <p class="plan-pricee">
-                <span>€</span>110
+                <span>€</span>120
               </p>
               <div className="motivation-containerr">
                 <p class="motivation-text">
@@ -376,7 +376,7 @@ function Ofertat() {
             <header class="plan-headerr">
               <p class="plan-namee">3x Muaj</p>
               <p class="plan-pricee">
-                <span>€</span>65
+                <span>€</span>75
               </p>
               <div className="motivation-containerr">
                 <p class="motivation-text">
@@ -476,7 +476,7 @@ function Ofertat() {
             <header class="plan-headerr">
               <p class="plan-namee-max">12x Muaj për qift</p>
               <p class="plan-pricee">
-                <span>€</span>300
+                <span>€</span>360
               </p>
               <div className="motivation-containerr">
                 <p class="motivation-text">
