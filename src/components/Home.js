@@ -80,7 +80,7 @@ export default function Home() {
               <header class="plan-header">
                 <p class="plan-name">Meshkuj</p>
                 <p class="plan-price">
-                  <span>€</span>220
+                  <span>€</span>260
                 </p>
                 <p class="plan-text">për 12 muaj</p>
                 <div className="motivation-container">
@@ -130,7 +130,7 @@ export default function Home() {
               <header class="plan-header">
                 <p class="plan-nameee">Femra</p>
                 <p class="plan-price">
-                  <span>€</span>180
+                  <span>€</span>220
                 </p>
                 <p class="plan-text">për 12 muaj</p>
                 <div className="motivation-container">
