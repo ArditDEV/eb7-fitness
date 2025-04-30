@@ -17,7 +17,7 @@ function Footer() {
             <ul class="social-links"></ul>
 
             <p class="copyright">
-              Copyright &copy; 2024 by Ardit Bakalli,All rights reserved
+              Copyright &copy; 2025 by Ardit Bakalli,All rights reserved
             </p>
           </div>
           <div class="address-col">
