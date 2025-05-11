@@ -376,7 +376,7 @@ function Ofertat() {
             <header class="plan-headerr">
               <p class="plan-namee">3x Muaj</p>
               <p class="plan-pricee">
-                <span>€</span>75
+                <span>€</span>65
               </p>
               <div className="motivation-containerr">
                 <p class="motivation-text">
