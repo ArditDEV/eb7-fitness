@@ -2,7 +2,6 @@ import React from "react";
 import "../css/home.css";
 import "../rensponsive/home.css";
 import Nav from "./Nav";
-import { Button } from "@mui/material";
 import Footer from "./Footer";
 import UnfoldMoreDoubleIcon from "@mui/icons-material/UnfoldMoreDouble";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
