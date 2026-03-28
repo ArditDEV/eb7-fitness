@@ -40,14 +40,19 @@ function Footer() {
               <br />
 
               <a class="footer-link" href="mailto:elvinbeqa77@gmail.com">
-                <EmailIcon style={{ marginRight: "8px" }} /> elvinbeqa77@gmail.com
+                <EmailIcon style={{ marginRight: "8px" }} />{" "}
+                elvinbeqa77@gmail.com
               </a>
             </address>
           </div>
           <nav class="nav-col">
             <p class="footer-heading">Na Ndjekni</p>
             <div className="social-icons">
-              <a href="https://www.facebook.com/EB7fitnes" target="_blank">
+              <a
+                href="https://www.facebook.com/EB7fitnes"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FacebookIcon
                   sx={{
                     color: "white",
@@ -60,6 +65,7 @@ function Footer() {
               <a
                 href="https://www.instagram.com/eb7_fitnes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 target="_blank"
+                rel="noreferrer"
               >
                 <InstagramIcon sx={{ color: "white", width: 40, height: 40 }} />
               </a>
