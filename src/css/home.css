@@ -103,7 +103,7 @@
   background-position: center -152px;
   height: 738px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   max-width: 125rem;
   margin: 0 auto;
@@ -354,7 +354,7 @@
 .logo-col {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .footer-logo {
